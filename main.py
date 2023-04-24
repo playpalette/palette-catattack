@@ -52,7 +52,7 @@ def get_score(address):
     return score
 
 # Define the Streamlit app and title bar
-st.set_page_config(page_title="Palette x CatAttack: a whitelist experiment by Palette", page_icon="./images/favicon.ico", layout="wide")
+st.set_page_config(page_title="Palette x CatAttack: a whitelist experiment by Palette", page_icon="./images/favicon.ico", layout="centered")
 st.title(":cat: :crossed_swords: Palette x CatAttack: a whitelist experiment by Palette")
 st.info('The data on this Streamlit dashboard is updated every 15 minutes. Real-time results may not be instantly reflected. We recommend that you use a brand new wallet address for this experiment, to preserve your privacy and security, as this address may be doxxed via the public leaderboard.')
 
