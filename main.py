@@ -124,16 +124,16 @@ for address in target_addresses:
     score = get_score(address)
     data.append({"address": address, "score": score})
 
-# Create leaderboard table sorted by score in descending order, limited to the top 25 scores, with position column
+# Create leaderboard table sorted by score in descending order, limited to the top 50 scores, with position column
 df = pd.DataFrame(data)
 df = df.sort_values(by=["score"], ascending=False)
-df = df.head(25)
+df = df.head(50)
 df["position"] = np.arange(1, len(df)+1)
 df = df[["position", "address", "score"]]
 df = df.style.set_properties(subset=['position'], **{'text-align': 'left'})
 
 # Display leaderboard table
-st.subheader("Leaderboard: the top 25 get whitelisted")
+st.subheader("Leaderboard: only the top 25 get whitelisted")
 st.table(df)
 st.divider()
 
