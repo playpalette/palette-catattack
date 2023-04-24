@@ -69,6 +69,7 @@ st.markdown("""
             * [**Register**](https://forms.gle/KBbofahYryGduYwr7) to play our CatAttack whitelist experiment
             * Play [**CatAttack**](https://mirror.xyz/0x554c1f09bf0907326C6e1eAde047E8A22382Eebb/p2fPsG5DfsA_gxsvj-g3wyUsDG9tV_c9_x7NTzIdriI) on the Base Goerli testnet (if you need testnet ETH, just ask us on [**Discord**](https://discord.gg/PDDt2BJaBe))
                 * CatAttack is a free-to-play game on the Base Goerli testnet created by [**Joaquim**](https://twitter.com/joenrv) and the team at [**thirdweb**](https://thirdweb.com/)
+                * Here's the link to the [**CatAttack page**](https://catattacknft.vercel.app/)
             * Get as high a score as you can before our timer runs out (10.05.2023 23:59:59 UTC)
             * 25 whitelist spots to be won by the top scorers
                 * If you're an **OG** (and already have a whitelist spot), you can yourself get a second one (or give it away)!
