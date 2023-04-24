@@ -2,4 +2,3 @@ streamlit
 pandas
 numpy
 web3
-pip3
