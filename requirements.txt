@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+web3
+datetime
+timezone
